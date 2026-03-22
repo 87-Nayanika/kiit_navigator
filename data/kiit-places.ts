@@ -35,7 +35,7 @@ export const kiitPlaces: KIITPlace[] = [
   { id: "campus-22", name: "Campus 22", category: "campus", description: "Central Library Facilities", coordinates: { lat: 20.3541, lng: 85.8135 } },
   { id: "campus-23", name: "Campus 23", category: "campus", description: "Sports Complexes", coordinates: { lat: 20.3558, lng: 85.8112 } },
   { id: "campus-24", name: "Campus 24", category: "campus", description: "Large Hostel Areas", coordinates: { lat: 20.3478, lng: 85.8161 } },
-  { id: "campus-25", name: "Campus 25", category: "campus", description: "Faculty Residential Housing", coordinates: { lat: 20.3469, lng: 85.8175 } },
+  { id: "campus-25", name: "Campus 25", category: "campus", description: "New  Computer Engineering campus", coordinates: { lat: 20.3645, lng: 85.8170 } },
 
   // Academic Buildings
   { id: "ksac", name: "KSAC", category: "academic", description: "KIIT Student Activity Center", coordinates: { lat: 20.3558, lng: 85.8158 } },
