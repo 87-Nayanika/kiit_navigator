@@ -64,9 +64,10 @@ export const roadNodes: RoadNode[] = [
   { id: "ent-campus16", name: "Campus 16 Law School Entrance", coordinates: { lat: 20.3572, lng: 85.8175 }, type: "entrance" },
   
   // Hostel Entrances
-  { id: "ent-qc1", name: "Queen Castle 1 Gate", coordinates: { lat: 20.3508, lng: 85.8150 }, type: "entrance" },
-  { id: "ent-qc2", name: "Queen Castle 2 Gate", coordinates: { lat: 20.3505, lng: 85.8155 }, type: "entrance" },
-  { id: "ent-qc3", name: "Queen Castle 3 Gate", coordinates: { lat: 20.3502, lng: 85.8158 }, type: "entrance" },
+  { id: "ent-qc1", name: "Queen Castle 1 Gate (Campus 6 Opening)", coordinates: { lat: 20.3508, lng: 85.8150 }, type: "entrance" },
+  { id: "ent-qc2", name: "Queen Castle 2 Gate (Campus 6 Opening)", coordinates: { lat: 20.3505, lng: 85.8155 }, type: "entrance" },
+  { id: "ent-qc3", name: "Queen Castle 3 Gate (Campus 6 Opening)", coordinates: { lat: 20.3502, lng: 85.8158 }, type: "entrance" },
+  { id: "ent-qc4", name: "Queen Castle 4 Gate (Campus 6 Opening)", coordinates: { lat: 20.3500, lng: 85.8160 }, type: "entrance" },
   { id: "ent-kp1", name: "Kings Palace 1 Gate", coordinates: { lat: 20.3515, lng: 85.8138 }, type: "entrance" },
   { id: "ent-kp2", name: "Kings Palace 2 Gate", coordinates: { lat: 20.3512, lng: 85.8142 }, type: "entrance" },
   { id: "ent-kp3", name: "Kings Palace 3 Gate", coordinates: { lat: 20.3508, lng: 85.8138 }, type: "entrance" },
@@ -143,6 +144,12 @@ export const roadSegments: RoadSegment[] = [
   { id: "ent-road-16", name: "Campus 11 Path", from: "ent-campus11", to: "junc-biotech", distance: 40, walkable: true, bikeable: true, vehicular: false },
   { id: "ent-road-17", name: "Campus 12 Path", from: "ent-campus12", to: "junc-campus6", distance: 50, walkable: true, bikeable: true, vehicular: false },
   { id: "ent-road-18", name: "Polytechnic Path", from: "ent-campus14", to: "junc-poly", distance: 35, walkable: true, bikeable: true, vehicular: false },
+  
+  // Queen Castle Gates connections to Campus 6
+  { id: "ent-road-qc1", name: "Queen Castle 1 to Campus 6", from: "ent-qc1", to: "junc-campus6", distance: 120, walkable: true, bikeable: true, vehicular: true },
+  { id: "ent-road-qc2", name: "Queen Castle 2 to Campus 6", from: "ent-qc2", to: "junc-campus6", distance: 130, walkable: true, bikeable: true, vehicular: true },
+  { id: "ent-road-qc3", name: "Queen Castle 3 to Campus 6", from: "ent-qc3", to: "junc-campus6", distance: 140, walkable: true, bikeable: true, vehicular: true },
+  { id: "ent-road-qc4", name: "Queen Castle 4 to Campus 6", from: "ent-qc4", to: "junc-campus6", distance: 150, walkable: true, bikeable: true, vehicular: true },
 ]
 
 // Build adjacency list for pathfinding
