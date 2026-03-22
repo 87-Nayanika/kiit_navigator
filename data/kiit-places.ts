@@ -17,7 +17,7 @@ export const kiitPlaces: KIITPlace[] = [
   { id: "campus-4", name: "Campus 4", category: "campus", description: "Engineering Academic Blocks, Lecture Halls", coordinates: { lat: 20.3555, lng: 85.8171 } },
   { id: "campus-5", name: "Campus 5", category: "campus", description: "Student Hostels, Dining Facilities", coordinates: { lat: 20.3512, lng: 85.8132 } },
   { id: "campus-6", name: "Campus 6 (Main Campus)", category: "campus", description: "Engineering Classrooms, Academic Departments, Main Campus", coordinates: { lat: 20.3531, lng: 85.8187 } },
-  { id: "campus-7", name: "Campus 7", category: "campus", description: "Residential Hostels, Student Housing Clusters", coordinates: { lat: 20.3498, lng: 85.8153 } },
+  { id: "campus-7", name: "Campus 7", category: "campus", description: "Residential Hostels, Student Housing Clusters, MBA Garden", coordinates: { lat: 20.3498, lng: 85.8153 } },
   { id: "campus-8", name: "Campus 8", category: "campus", description: "Mechanical Engineering, Engineering Workshops", coordinates: { lat: 20.3561, lng: 85.8128 } },
   { id: "campus-9", name: "Campus 9", category: "campus", description: "KIIT International School", coordinates: { lat: 20.3539, lng: 85.8099 } },
   { id: "campus-10", name: "Campus 10", category: "campus", description: "Management Academic Buildings, MBA Facilities", coordinates: { lat: 20.3521, lng: 85.8168 } },
@@ -25,7 +25,7 @@ export const kiitPlaces: KIITPlace[] = [
   { id: "campus-12", name: "Campus 12", category: "campus", description: "Electrical Engineering, Electronics and Power Labs", coordinates: { lat: 20.3538, lng: 85.8201 } },
   { id: "campus-13", name: "Campus 13 – KSAC", category: "campus", description: "KIIT Student Activity Centre, Cultural Clubs, Event Venues, Near Biju Patnaik Stadium", coordinates: { lat: 20.3556, lng: 85.8163 } },
   { id: "campus-14", name: "Campus 14", category: "campus", description: "KIIT Polytechnic", coordinates: { lat: 20.3515, lng: 85.8195 } },
-  { id: "campus-15", name: "Campus 15", category: "campus", description: "School of Computer Engineering, Computer Labs, MBA Garden", coordinates: { lat: 20.3537, lng: 85.8149 } },
+  { id: "campus-15", name: "Campus 15", category: "campus", description: "School of Computer Engineering, Computer Labs", coordinates: { lat: 20.3537, lng: 85.8149 } },
   { id: "campus-16", name: "Campus 16", category: "campus", description: "KIIT School of Law, Moot Courts, Law Library", coordinates: { lat: 20.3569, lng: 85.8182 } },
   { id: "campus-17", name: "Campus 17", category: "campus", description: "Medical Hostels, Health Sciences Facilities", coordinates: { lat: 20.3489, lng: 85.8121 } },
   { id: "campus-18", name: "Campus 18", category: "campus", description: "Nursing Sciences", coordinates: { lat: 20.3483, lng: 85.8141 } },
@@ -35,7 +35,7 @@ export const kiitPlaces: KIITPlace[] = [
   { id: "campus-22", name: "Campus 22", category: "campus", description: "Central Library Facilities", coordinates: { lat: 20.3541, lng: 85.8135 } },
   { id: "campus-23", name: "Campus 23", category: "campus", description: "Sports Complexes", coordinates: { lat: 20.3558, lng: 85.8112 } },
   { id: "campus-24", name: "Campus 24", category: "campus", description: "Large Hostel Areas", coordinates: { lat: 20.3478, lng: 85.8161 } },
-  { id: "campus-25", name: "Campus 25", category: "campus", description: "New  Computer Engineering campus", coordinates: { lat: 20.3645, lng: 85.8170 } },
+  { id: "campus-25", name: "Campus 25", category: "campus", description: "New computer science campus", coordinates: { lat: 20.3645, lng: 85.8170 } },
 
   // Academic Buildings
   { id: "ksac", name: "KSAC", category: "academic", description: "KIIT Student Activity Center", coordinates: { lat: 20.3558, lng: 85.8158 } },
@@ -77,7 +77,7 @@ export const kiitPlaces: KIITPlace[] = [
   // Landmarks
   { id: "stadium", name: "Biju Patnaik Stadium", category: "landmark", description: "Main Sports Stadium", coordinates: { lat: 20.3560, lng: 85.8155 } },
   { id: "sports-complex", name: "KIIT Sports Complex", category: "landmark", description: "Indoor Sports Facility", coordinates: { lat: 20.3552, lng: 85.8108 } },
-  { id: "mba-garden", name: "MBA Garden", category: "landmark", description: "Recreational Garden", coordinates: { lat: 20.3528, lng: 85.8158 } },
+  { id: "mba-garden", name: "MBA Garden", category: "landmark", description: "Recreational Garden", coordinates: { lat: 20.3497, lng: 85.8198 } },
   { id: "central-library", name: "Central Library", category: "landmark", description: "Main Library", coordinates: { lat: 20.3538, lng: 85.8132 } },
   { id: "main-gate", name: "KIIT Main Gate", category: "landmark", description: "Main Entrance", coordinates: { lat: 20.3520, lng: 85.8115 } },
   { id: "kims-hospital", name: "KIMS Hospital", category: "landmark", description: "Medical Facility", coordinates: { lat: 20.3485, lng: 85.8175 } },
